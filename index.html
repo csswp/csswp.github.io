@@ -1,0 +1,100 @@
+<html>
+<head>
+        <title>CSSWP</title>
+        <style>
+            .tab-content {
+  display: none;
+                 text-align:center;
+}
+            .largetext{
+              
+                font-size:120px;
+                
+            }
+            .links{
+                color:red;
+                font-size:30px;
+                
+            }
+
+            .links:hover{
+     color:yellow;     
+                font-size:35px;
+              }
+
+            body{
+                background-color:grey
+            }
+            .navigators{
+                width:60px;
+                height:20px;
+                border-radius:0px;
+                }
+        </style>
+    </head>
+    <body>
+
+
+        
+<button class="navigators" onclick="showTab(1);swapTitle('CSSWP>Home')">Home</button>
+        <br>
+<button class="navigators" onclick="showTab(2);swapTitle('CSSWP>Tools')">Tools</button> 
+        <div id="tab1" class="tab-content">
+<h class="largetext" >CSSWP Homepage</h>
+            <img src="" onerror="showTab(1)">
+
+            <br>
+            <a href = "https://docs.google.com/presentation/d/1zyZ6aftiKZqmcPcFv0eVsJcycQqcciW_BiJttIoXbXg/edit?usp=sharing" class="largetext" target = "_blank" >Drafts and Discussions</a>
+           
+</div>
+
+<div id="tab2" class="tab-content" style="display: none;">
+  <h class="largetext">Forecasting Tools</h>
+     <br>
+            <a href = "https://spc.noaa.gov/products" class="links" target = "_blank" >SPC</a> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAABupgeRAAACQ0lEQVR4AXSOg5YcURRF60+CdheasW3bTpZi27aNssZ2e2zbiG1V7spY+/H6IF0QhIpdu1KWLnUsWBC/dWsSw5QjvSH6VU6YFImi/hjmb7EEWq2BOB4A5rhxERRb1jX79NU8g0k0WWT7oMABA4MGDgxu3mCabLLWKBw8mdmpYOBof4OFsw6TLz0qesAXrN3kcjgbbjwsuEMWjJ0eZhokXbhT2J6tKIov882wicGYXbjFF6cVvY5Jqq+ofX+JzsoofjV6auj1xyXKf9oLgGjfS9NgyTRItAyVzcNE0zDBMkRGreLU+VHNCSOiC7dXKcje6r+rS342uy7cK9LgjGmoZBrOEyNY8xBJT/BsUA2EFhZ87vsgcnJSAzIj842eTNha+re5ZuOuRBVOYsNYfDirMZGL1yaAc0uNonsWb6Acw6MKkLHOKjBgr2qds/VsBjqcUtmejFocCubSkm/QEWVcWtYzLKoQmZ3zQfs0Dmy4h0cXNdeISe8Fxyv4rCj9TvBeI+1EWbeadExNaUJu1yrNBRjr1pAJesY1N+Nlc9mY+FKzlIwJPpT1YFDwJPZonYIAA0OyQJKR8xgZt80/bUZyw4ioAhXpgJbggWwD59XSLntgBtLMs1pF8zQeekMMMnSkQ0c79bxPz3lQ2FBAu9RP4043QPtWNpb/ghpIhTCM0vNeKIBt4L06yqF+Ereq5BvShasNyqDgLNWzhH7PEvpTThXl7At/0jEgNOdko4L0xo1GZXH+x2nemum+f3sUceVjL4ZSAKTWa5ULHUStAAAAAElFTkSuQmCC" >
+    <br>
+            <a href = "https://www.weather.gov/lot/" class="links" target = "_blank" >Weather Alerts</a> <img src="https://static.vecteezy.com/system/resources/thumbnails/017/172/379/small/warning-message-concept-represented-by-exclamation-mark-icon-exclamation-symbol-in-triangle-png.png" width="20" height="20">
+     <br>
+            <a href = "https://radar.weather.gov/?settings=v1_eyJhZ2VuZGEiOnsiaWQiOiJ3ZWF0aGVyIiwiY2VudGVyIjpbLTg4LjExNyw0MS45Ml0sImxvY2F0aW9uIjpbLTg4LjExNyw0MS45Ml0sInpvb20iOjExLjUwODI2ODA2NTg5NTQ2fSwiYW5pbWF0aW5nIjpmYWxzZSwiYmFzZSI6InN0YW5kYXJkIiwiYXJ0Y2MiOmZhbHNlLCJjb3VudHkiOmZhbHNlLCJjd2EiOmZhbHNlLCJyZmMiOmZhbHNlLCJzdGF0ZSI6ZmFsc2UsIm1lbnUiOnRydWUsInNob3J0RnVzZWRPbmx5IjpmYWxzZSwib3BhY2l0eSI6eyJhbGVydHMiOjAuOCwibG9jYWwiOjAuNiwibG9jYWxTdGF0aW9ucyI6MC44LCJuYXRpb25hbCI6MC42fX0%3D" class="links" target = "_blank" >Radar</a> <img src="https://static.vecteezy.com/system/resources/thumbnails/015/339/430/small/hud-radar-with-targets-in-action-military-search-system-png.png" width="20" height="20">
+
+     <br>
+            <a href = "https://www.lightningmaps.org/#m=oss;t=3;s=0;o=3;b=;ts=0;y=36.8322;x=-87.6738;z=6;d=2;dl=2;dc=0;" class="links" target = "_blank" >Lightning Map</a> <img width="20" height="20"  src="https://www.freeiconspng.com/thumbs/lightning-bolt-png/lightning-bolt-png-28.png">
+
+       <br>
+            <a href = "https://www.wpc.ncep.noaa.gov/NationalForecastChart/map.php" class="links" target = "_blank" >Weather Prediction Center</a> <img width="20" height="20" src="data:image/jpeg;base64,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">
+     <br>
+            <a href = "https://tornadohq.com" class="links" target = "_blank" >TornadoHQ</a> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABKUlEQVR4Ae3XAaYCURTG8f+5k9rB86B2UBuIFtJSUlpFgpbRKgLQEtL0zIBSQ3K/h4dIU+9607tKP44D8M03M9cMAicYeUg9eIEeOR68h1QwFBiCkUCRZmAevgw+iECwNoG4Zj6HZhPMAP6+u13IsssAqlGm3YZWi8p4zyUDc5Sp16nU8cg1jjKNRuQAVTYgRW7gdAIpIIBzkCQPrx+gVnr1ZtVUXxSw2QQGSBJYLGC7hd3uvHs96HS4aTyG6RQOh5+RuCno6JzNdFe/H3QcO0KYcVeeE+JZAgTIsogNSJEb2O+hKCI2kOeEcjHv/7uBF2wgzyM3kGXvBp7vIawJZGC/fs2Wy/NHyuVerQghkHlIDT6JQJA6gwnxTBA4wdDD+h9/z9eCgcC+ATxGd1kJgGI7AAAAAElFTkSuQmCC">
+
+
+
+    
+</div>
+
+    
+        
+
+     
+
+
+        
+    <script>
+
+        function showTab(tabNumber) {
+  // Hide all tab contents
+  var tabContents = document.getElementsByClassName("tab-content");
+  for (var i = 0; i < tabContents.length; i++) {
+    tabContents[i].style.display = "none";
+  }
+
+  // Show the selected tab content
+  var selectedTab = document.getElementById("tab" + tabNumber);
+  selectedTab.style.display = "block";
+}
+
+        function swapTitle(name){
+            document.title = name
+            }
+    </script>    
+    </body>
+    
+</html>tml…]()

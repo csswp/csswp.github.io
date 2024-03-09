@@ -1,1 +1,0 @@
-the official chicago suburbs severe weather predcition hub, located in bartlett, IL. we study severe weather for the safety of our peers and for our own entertainment and enthusiasm of severe weather.  
